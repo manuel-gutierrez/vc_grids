@@ -30,7 +30,6 @@
 .vc-composer-icon,
 [class*=" vc_arrow-icon-"],
 [class^=vc_arrow-icon-] {
-    speak: none;
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
@@ -12430,7 +12429,6 @@ a.wpb_button_a {
 
 .wpb_tour_next_prev_nav span {
     width: 48%;
-    display: inline-block;
     padding-top: 1em;
     float: left
 }
@@ -15464,7 +15462,7 @@ body .wpb_gallery_slides ul li {
     transform-origin: 50% 50%;
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
-    webkit-transition: filter .5s cubic-bezier(0, .275, .125, 1), -webkit-transform .5s cubic-bezier(0, .275, .125, 1);
+    -webkit-transition: filter .5s cubic-bezier(0, .275, .125, 1), -webkit-transform .5s cubic-bezier(0, .275, .125, 1);
     -moz-transition: filter .5s cubic-bezier(0, .275, .125, 1), -moz-transform .5s cubic-bezier(0, .275, .125, 1);
     transition: filter .5s cubic-bezier(0, .275, .125, 1), transform .5s cubic-bezier(0, .275, .125, 1)
 }
